@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "version": "0.1.0",
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "package-specs": {
+        "module": "commonjs",
+        "in-source": true
+    },
+    "suffix": ".bs.js",
+    "warnings": {
+        "error": "+101"
+    },
+    "namespace": true,
+    "refmt": 3,
+  "ppx-flags": [
+    ["@leeor/rescript-ppx-let/ppx.exe", "-as-ppx"]
+  ],    "bs-dependencies": [ "../src" ]
+}

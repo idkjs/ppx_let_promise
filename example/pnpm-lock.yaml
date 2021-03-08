@@ -1,0 +1,20 @@
+dependencies:
+  '@leeor/rescript-ppx-let': 0.1.13
+devDependencies:
+  bs-platform: 8.4.2
+lockfileVersion: 5.2
+packages:
+  /@leeor/rescript-ppx-let/0.1.13:
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-WWTcvLSjxLulbw+LLI4JIFla0iL4flW+uv5GSJlZ9teg10zwKjfTX3h84nTzdxHRyPV+1pTbuT5Bp9eSasbs3g==
+  /bs-platform/8.4.2:
+    dev: true
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-9q7S4/LLV/a68CweN382NJdCCr/lOSsJR3oQYnmPK98ChfO/AdiA3lYQkQTp6T+U0I5Z5RypUAUprNstwDtMDQ==
+specifiers:
+  '@leeor/rescript-ppx-let': ^0.1.13
+  bs-platform: ^8.4.2

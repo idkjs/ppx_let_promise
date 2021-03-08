@@ -1,10 +1,16 @@
 {
-  "name": "ppx_let_promise",
-  "version": "1.0.0",
-  "description": "ppx_let bindings for BuckleScript's Js.Promise.t",
-  "author": "Andrey Popp",
-  "license": "MIT",
-  "devDependencies": {
-    "bs-platform": "^1.8.0"
-  }
+    "name": "ppx_let_promise",
+    "version": "1.0.0",
+    "description": "ppx_let bindings for BuckleScript's Js.Promise.t",
+    "author": "Andrey Popp",
+    "license": "MIT",
+    "scripts": {
+        "build": "bsb -make-world",
+        "start": "bsb -make-world -w",
+        "clean": "bsb -clean-world",
+        "watch": "BS_WATCH_CLEAR=true bsb -make-world -w"
+    },
+    "devDependencies": {
+        "bs-platform": "^9.0.1"
+    }
 }

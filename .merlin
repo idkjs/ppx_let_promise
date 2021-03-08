@@ -1,8 +1,8 @@
 ####{BSB GENERATED: NO EDIT
-FLG -ppx /Users/andreypopp/Workspace/ppx_let_promise/node_modules/bs-platform/bin/bsppx.exe
-S /Users/andreypopp/Workspace/ppx_let_promise/node_modules/bs-platform/lib/ocaml
-B /Users/andreypopp/Workspace/ppx_let_promise/node_modules/bs-platform/lib/ocaml
-FLG -nostdlib -no-alias-deps -color always -w -40+6+7+27+32..39+44+45
+FLG -ppx '/Volumes/SSD/Github/ppx_let_promise/node_modules/.pnpm/bs-platform@9.0.1/node_modules/bs-platform/darwin/bsc.exe -as-ppx '
+S /Volumes/SSD/Github/ppx_let_promise/node_modules/.pnpm/bs-platform@9.0.1/node_modules/bs-platform/lib/ocaml
+B /Volumes/SSD/Github/ppx_let_promise/node_modules/.pnpm/bs-platform@9.0.1/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
 S src
 B lib/bs/src
 ####BSB GENERATED: NO EDIT}
